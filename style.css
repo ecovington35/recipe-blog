@@ -1,0 +1,27 @@
+.cardone {
+    width: 49%;
+    margin: 1px;
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    float: left;
+    background-image: url(images/potpie.jpeg);
+    background-size: cover;
+}
+
+.cardtwo {
+    width: 49%;
+    margin: 1px;
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url(images/popcorn.jpg);
+    background-size: cover;
+    float: right;
+}
+
+body {
+    text-align: center;
+}
