@@ -12,6 +12,7 @@ a {
     border: 1px solid black;
     padding: 5px;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 a:hover {
@@ -21,4 +22,30 @@ a:hover {
 
 h3 {
     text-decoration: underline
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title img {
+    width: 400px;
+}
+
+
+table {
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid black
+}
+
+body {
+    width: 1000px;
+    margin: auto;
 }

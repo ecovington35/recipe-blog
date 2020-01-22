@@ -1,5 +1,6 @@
 .cardone {
     width: 49%;
+    height: 30%;
     margin: 1px;
     border: 1px black solid;
     text-align: center;
@@ -13,6 +14,7 @@
     background-blend-mode: lighten;
     color: black;
     margin-bottom: 10px;
+    box-shadow: 2.5px 5px grey;
 }
 
 .cardtwo {
@@ -24,10 +26,12 @@
     padding-bottom: 90px;
     background-image: url(images/popcorn.jpg);
     background-size: cover;
+    background-position: center;
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     float: right;
     margin-bottom: 10px;
+    box-shadow: 2.5px 5px grey;
 }
 
 .cardthree {
@@ -40,8 +44,10 @@
     float: left;
     background-image: url(images/meatloaf.jpg);
     background-size: cover;
+    background-position: center;
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
+    box-shadow: 2.5px 5px grey;
 }
 
 .cardfour {
@@ -53,9 +59,11 @@
     padding-bottom: 90px;
     background-image: url(images/mac.jpeg);
     background-size: cover;
+    background-position: center;
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     float: right;
+    box-shadow: 2.5px 5px grey;
 }
 
 a {
@@ -68,4 +76,7 @@ a:hover {
 
 body {
     text-align: center;
+    width: 800px;
+    margin: auto;
 }
+
